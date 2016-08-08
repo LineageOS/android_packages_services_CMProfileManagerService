@@ -34,7 +34,8 @@
     <uses-permission android:name="cyanogenmod.permission.BIND_CORE_SERVICE" />
 
     <application android:label="@string/app_name"
-                 android:requiredForAllUsers="true">
+                 android:requiredForAllUsers="true"
+                 android:icon="@mipmap/ic_profile_manager_service">
 
         <service android:name="org.cyanogenmod.cmprofileservice.CMProfileManagerService"
                  android:permission="cyanogenmod.permission.BIND_CORE_SERVICE"
